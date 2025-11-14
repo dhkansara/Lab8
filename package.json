@@ -1,0 +1,26 @@
+{
+  "name": "lab8",
+  "version": "1.0.0",
+  "description": "this is my lab8",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass --no-source-map scss:css"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhkansara/Lab8.git"
+  },
+  "author": "Dhruv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhkansara/Lab8/issues"
+  },
+  "homepage": "https://github.com/dhkansara/Lab8#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "sass": "^1.94.0"
+  }
+}
