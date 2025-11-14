@@ -63,7 +63,7 @@
             <div class="container">
     <div class="row justify-content-center mt-5">
        
-    <div class="col-8">
+    <div class="col-12">
                     <a href="viewrecords.php" class="btn btn-info w-100">View Records</a>
 
     <div class="container">
