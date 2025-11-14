@@ -1,7 +1,7 @@
 <?php 
     $title = "Received";
     require_once 'Includes/header.php';
-    require_once 'Includes/Db/conn.php';
+    require_once 'Db/conn.php';
 ?>
 	<h1>Testing!!</h1>
 <?php
@@ -10,7 +10,8 @@
     $address = $_POST['address'];
     $city = $_POST['city'];
     $province = $_POST['province'];
-    $postalcode = $_POST['postalcode'];
+    $postalcode = $_POST['postal_code'];
+    
 
 
     $email = mysqli_real_escape_string($conn, $email);
@@ -20,7 +21,7 @@
     $postalcode = mysqli_real_escape_string($conn, $postalcode);
 
 
-      $sql = "INSERT INTO client_info (email, address, city, province, postalcode) VALUES ('$email', '$address', '$city', '$province', ‘$postalcode')";
+      $sql = "INSERT INTO client_info (email, address, city, province, postalcode) VALUES ('$email', '$address', '$city', '$province', '$postalcode')";
 
 
     if (mysqli_query($conn, $sql)) {

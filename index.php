@@ -12,7 +12,7 @@
 <body>
 
   <div class="container mt-5">
-    <h1 class="text-center mb-4">Testing...</h1>
+    <h1 class="text-center text-danger col-md-1 p-5 ">Testing...</h1>
 
     <div class="row justify-content-center">
       <div class="col-md-10">
@@ -62,8 +62,28 @@
             <button type="submit" class="btn btn-primary">Submit</button>
             <div class="container">
     <div class="row justify-content-center mt-5">
-        <div class="col-8">
+       
+    <div class="col-8">
                     <a href="viewrecords.php" class="btn btn-info w-100">View Records</a>
+
+    <div class="container">
+    <div class="row justify-content-center mt-3">
+    <div class="col-12 d-flex p-0">
+
+    
+      <div class="col-3 bg-success-subtle text-dark p-2 text-center">
+        Primary Key
+      </div>
+
+
+      <a href="Delet.php" class="col-9 bg-danger text-white p-2 text-center" style="text-decoration:none;">
+        To delete a record, click this button
+      </a>
+
+    </div>
+  </div>
+</div>
+                
         </div>
     </div>
 </div>
